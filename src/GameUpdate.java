@@ -40,6 +40,9 @@ public class GameUpdate {
 	 */
 	public void upKey(){
 		greenY -= 10;
+		if(greenY > 200) {
+			greenY =190;
+		}
 	}
 	
 	/**
