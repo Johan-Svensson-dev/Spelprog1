@@ -22,6 +22,7 @@ public class GameUpdate {
 		greenX -= 10;
 		if(greenX < 10) {
 			greenX = 10;
+			checkCollision();
 		}
 	}
 	
@@ -95,6 +96,16 @@ public class GameUpdate {
 			greyY = 680;
 	}
 
+
+
+public void checkCollision(){
+	if(greenX == greyX && greenY==greyY) {
+		greenX = 900; greenY = 900;
+		greyX = 10; greenX = 10;
+		
+		}
+	}
 }
+
 
 

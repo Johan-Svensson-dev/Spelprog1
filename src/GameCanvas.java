@@ -137,5 +137,6 @@ public class GameCanvas extends Canvas implements KeyListener{
 	
 	public static void main(String[] args){
 		new GameCanvas();
+
 	}
 }
